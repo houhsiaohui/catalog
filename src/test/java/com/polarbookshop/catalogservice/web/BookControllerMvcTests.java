@@ -29,5 +29,4 @@ class BookControllerMvcTests {
                 .perform(get("/books/" + isbn))
                 .andExpect(status().isNotFound());
     }
-
 }
